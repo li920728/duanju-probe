@@ -460,7 +460,7 @@ public class Hook implements IXposedHookLoadPackage {
         }
     }
 
-    private static String ts() {私有 静态 字符串 ts() {私有 静态 字符串 ts() {私有 静态 字符串ts() {
-        return返回 new SimpleDateFormat("HH:mm:ss.SSS", Locale.US).format(new Date());返回 新 SimpleDateFormat("HH:mm:ss.SSS", Locale.US).格式化(新 日期());返回返回新SimpleDateFormat("HH:mm:ss.SSS", Locale.US).格式化新 日期;
+        private static String ts() {
+        return new SimpleDateFormat("HH:mm:ss.SSS", Locale.US).format(new Date());
     }
-                                               }
+}
